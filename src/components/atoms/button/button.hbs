@@ -1,0 +1,14 @@
+
+<p>
+  {{#each colors}}
+  <button type="button" class="button {{../modifier}} {{this}}">
+    {{#if ../icon}}<i class="{{../icon}}"></i> {{/if}}
+    {{../text}}
+    {{#if ../iconAfter}} <i class="{{../iconAfter}}"></i> {{/if}}
+  </button>
+  {{/each}}
+</p>
+
+
+
+
