@@ -8,17 +8,14 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component({
-  components: {}
+  components: {},
 })
 export default class FeatureButton extends Vue {
-  @Prop()
-  private label!: string;
-  @Prop()
-  private to!: string;
-  @Prop()
-  private icon!: string;
+  @Prop() private a = "";
+  @Prop() private to: string;
+  @Prop() private icon: string;
 }
 </script>
 
-<style src="./button.css">
+<style src="./button.scss" lang="scss">
 </style>

@@ -14,6 +14,11 @@
                 "name": "button.css"
             },
             {
+                "relativePath": "src/components/atoms/button/button.scss",
+                "test": false,
+                "name": "button.scss"
+            },
+            {
                 "relativePath": "src/components/atoms/button/feature-button.vue",
                 "test": false,
                 "name": "feature-button.vue"
@@ -26,7 +31,20 @@
         ],
         "mainFile": "src/components/atoms/button/index.ts",
         "trackDir": "src/components/atoms/button",
-        "origin": "AUTHORED"
+        "origin": "AUTHORED",
+        "exported": false
     },
-    "version": "13.0.4"
+    "_settings": {
+        "files": [
+            {
+                "relativePath": "src/styles/_settings.scss",
+                "test": false,
+                "name": "_settings.scss"
+            }
+        ],
+        "mainFile": "src/styles/_settings.scss",
+        "origin": "AUTHORED",
+        "exported": false
+    },
+    "version": "13.0.6-dev.31"
 }
